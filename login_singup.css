@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f1e9; /* Blanco arenoso */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fffcf7; /* Blanco cremoso */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(139, 109, 81, 0.1); /* Sombra café claro */
+    width: 100%;
+    max-width: 400px;
+}
+
+.form_area {
+    text-align: center;
+}
+
+.title {
+    color: #4a3c31; /* Marrón oscuro */
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.form_group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.sub_title {
+    color: #8b6d51; /* Café medio */
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.form_style {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d4c9b9; /* Beige claro */
+    border-radius: 5px;
+    background-color: #fffcf7;
+    color: #4a3c31;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form_style:focus {
+    outline: none;
+    border-color: #8b6d51;
+    box-shadow: 0 0 5px rgba(139, 109, 81, 0.3);
+}
+
+.btn {
+    background-color: #8b6d51; /* Café medio */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    background-color: #6d543f; /* Café más oscuro */
+}
+
+.link {
+    color: #8b6d51;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    background-color: #f8e1e1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: #8b4a4a;
+}

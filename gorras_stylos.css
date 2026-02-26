@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5e6e0 0%, #e0c3b9 100%);
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+}
+
+p{
+  opacity: 0.8;
+  margin: 2em 0;
+}
+
+a{
+  border: 2px solid black;
+  padding: 0.6em 3.5em;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 0.9em;
+
+}
+
+h1{
+  font-weight: 600;
+  font-size: 2em;
+}
+
+banner{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    color: white;
+    text-align: left;
+    background-attachment: fixed;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-image: url('https://getyourhooey.com/cdn/shop/collections/DSC01363-edited_1600x.jpg?v=1740423476');
+   background-size: cover;
+   background-position: center;
+   padding-top: 20px;
+    
+}
